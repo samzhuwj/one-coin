@@ -1,7 +1,7 @@
 import json
 import requests
 
-from bitcoinmonitor.celeryconfig import app
+from coinprice.celeryconfig import app
 from channels import Group
 
 
