@@ -27,7 +27,7 @@ SECRET_KEY = 'x1r!e^_w544_%-v&lm@s71qyn+__uc81ma%@2)*ql06lcvl*y!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast=bool, default=False)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['protected-forest-75949.herokuapp.com']
 
 
 # Application definition
